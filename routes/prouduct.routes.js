@@ -7,7 +7,7 @@ const {
     updateProduct,
     deleteProduct
 } = require("../controller/product.controller");
-
+const { updateUser } = require('../controller/user.controller');
 
 //  add new product - create
 productRoutes.post("/",addNewProduct);

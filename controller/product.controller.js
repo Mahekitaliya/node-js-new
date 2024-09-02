@@ -1,4 +1,3 @@
-
 const Product = require("../model/product.model");
 
 // Add New User
